@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+a{
+    text-decoration: none !important;
+}
+.NAV1 {
+    height: 120px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 0px;
+
+    z-index: 9;
+    background-color: white;
+    top: 0;
+}
+
+nav .nav-left {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+nav .nav-left .search {
+    position: relative;
+}
+
+nav .nav-left .search input {
+    position: absolute;
+    border: none;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px 16px 9px 36px;
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+    height: 40px;
+    width: fit-content;
+    z-index: px;
+    outline: none !important;
+    transition: 0.4s;
+
+}
+
+nav .nav-left .search input:hover {
+    margin-left: 20px;
+
+}
+
+
+nav .nav-left .search .fa-solid {
+    color: rgb(172, 167, 167);
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 15px;
+}
+
+nav .nav-center {
+    border: 3px solid rgba(0, 0, 0, 0.648);
+    width: 30%;
+    height: 7vh;
+    text-decoration: none;
+    margin-left: 500px;
+    margin-top: 2px;
+}
+
+nav .nav-center h1 {
+    font-size: 20px;
+    color: #5d5c5c;
+
+    text-align: center;
+}
+
+nav .nav-right {
+    display: flex;
+    padding-left: 450px;
+
+}
+
+nav .nav-right a {
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-decoration: none !important;
+    color: #999595;
+
+}
+
+nav .nav-right a:hover {
+    color: #5d5c5c;
+}
+
+
+nav .nav-right a h4 {
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: purple;
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: -51px;
+    position: absolute;
+}
+
+nav .nav-right .fa-cart-shopping {
+    position: relative;
+}
+
+.nav2 {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 340px 0px;
+    background-color: white;
+    top: 0;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav2 a:hover {
+    color: purple;
+}
+
+.home {
+    color: purple !important;
+}
+
+.one-div {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+
+}
+
+.one-div a {
+    margin-left: 30px;
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-decoration: none !important;
+    color: black;
+
+}
+
+.one-div a:hover {
+    color: purple;
+}
+
+.one-div h1 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+/* end navv */
+
+.right {
+    position: relative;
+    border: 2px solid rgb(190, 189, 189);
+    width: 290px;
+    height: 210px;
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+}
+
+.shop-all {
+    display: flex;
+}
+
+.categories {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+
+}
+
+.categories .name h4 {
+    color: purple;
+}
+
+.right h1 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.right2 {
+    position: relative;
+    border: 2px solid rgb(190, 189, 189);
+    width: 290px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+}
+
+.right2 h1 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.min-max-range {
+    padding: 30px 0px 20px 0px;
+}
+
+.range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40%;
+    height: 10px;
+    max-width: 200px;
+    font-size: 20px;
+    background-color: purple;
+    border: 2px solid transparent;
+
+    margin-left: 20px;
+    padding: 0;
+    outline: none;
+
+}
+
+.range2 {
+    margin-left: -5px;
+}
+
+.right2 p {
+    margin-left: 20px;
+    margin-top: -20px;
+    color: #5d5c5c;
+}
+
+.input33 {
+    position: relative;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.chek .small p {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -29px;
+    color: black;
+}
+
+.color {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.colors p {
+    position: absolute;
+    color: black;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.colors .fa-circle {
+    margin-top: -20px;
+}
+
+.reed {
+    color: red;
+}
+
+.greeen {
+    color: green;
+}
+
+.bluee {
+    color: blue;
+}
+
+.purplee {
+    color: purple;
+}
+
+/* end section one */
+
+.gallery {
+    margin-top: 90px;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.one-gallery h1{
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.gallery .section-four {
+    margin-top:-120px;
+    margin-left: 30px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery .section-four .shurt {
+    margin-left: 0px;
+    margin-top: 90px;
+    margin-right: 40px;
+    border: 2px solid rgb(204, 204, 204);
+
+    height: 350px;
+
+    background-color: white;
+
+}
+
+.gallery .section-four .shurt img {
+
+    width: 270px;
+}
+
+.gallery .section-four .shurt h3 {
+    color: purple;
+}
+
+
+
+
+
+.gallery22 {
+    margin-top: -200px;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.gallery22 .section-five {
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery22 .section-five .shurt22 {
+    margin-left: 0px;
+    margin-top: 90px;
+    margin-right: 40px;
+    border: 2px solid rgb(204, 204, 204);
+
+    height: 350px;
+
+    background-color: white;
+
+}
+
+.gallery22 .section-five .shurt22 img {
+
+    width: 270px;
+}
+
+.section-three img {
+    width: 350px;
+    display: block;
+
+
+}
+
+
+.section-three h1,
+h6 {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 20px;
+    color: white;
+
+
+}
+
+.section-three h6 {
+    font-size: 20px;
+    margin-top: -90px;
+}
+
+.section-three {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0;
+    flex-direction: row;
+    filter: brightness(80%);
+
+}
+
+.box {
+    transition: 1s;
+    margin: 0 1px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+.box:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.catt {
+    font-size: 40px;
+    margin-top: -90px;
+    margin-left: 600px;
+    margin-bottom: -50px;
+
+}
+.line33 {
+    width: 40px;
+    height: 2px;
+    border: 1px solid purple;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 0px;
+}
+footer {
+    position: relative;
+
+}
+
+footer .all-footer {
+    position: absolute;
+    display: flex;
+    margin-top: 120px;
+
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 50px 50px;
+}
+
+footer .all-footer a {
+    justify-content: center;
+    text-decoration: none;
+    display: list-item;
+    list-style: none;
+    color: #717070;
+    cursor: pointer;
+
+}
+
+.center {
+    margin-top: 65px;
+}
+
+footer .all-footer i {
+    margin-left: -30px;
+    margin-top: 6px;
+    position: absolute;
+    color: purple;
+    font-size: 20px;
+}
+
+.icon {
+
+    margin-left: -100px;
+    position: relative;
+}
+
+.pormo img {
+    width: 300px;
+    height: 150px;
+
+}
+
+.shose11 {
+    color: purple !important;
+    font-size: 18px;
+}
+
+
+.subscribe {
+    margin-left: -30px;
+    margin-top: 50px;
+}
+
+/* .sub{
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: 2px solid rgb(164, 164, 164) ;
+}
+.sub h4{
+    color: #515050;
+    margin-left: 10px;
+    margin-top: 5px;
+} */
+.subss {
+    text-decoration: none;
+    width: 190px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.send {
+    width: 90px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 10%;
+    position: absolute;
+    text-align: center;
+
+    background-color: purple;
+    margin-left: 175px;
+    margin-top: -50px;
+}
+
+.emailll {
+    text-align: center;
+    color: white !important;
+}
+
+.bee {
+    font-size: 20px;
+    color: #494848;
+
+}
+.your-name{
+    margin-top: 500px;
+    margin-left: 380px;
+    margin-bottom: 70px;
+    color: #717070;
+}
+.your-name span{
+    color: purple;
+}
+.fa-heart{
+    font-size: 20px;
+}

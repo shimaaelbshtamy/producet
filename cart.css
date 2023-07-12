@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.NAV1 {
+    height: 120px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 0px;
+
+    z-index: 9;
+    background-color: white;
+    top: 0;
+}
+
+nav .nav-left {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+nav .nav-left .search {
+    position: relative;
+}
+
+nav .nav-left .search input {
+    position: absolute;
+    border: none;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px 16px 9px 36px;
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+    height: 40px;
+    width: fit-content;
+    z-index: px;
+    outline: none !important;
+    transition: 0.4s;
+
+}
+
+nav .nav-left .search input:hover {
+    margin-left: 20px;
+
+}
+
+
+nav .nav-left .search .fa-solid {
+    color: rgb(172, 167, 167);
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 15px;
+}
+
+nav .nav-center {
+    border: 3px solid rgba(0, 0, 0, 0.648);
+    width: 30%;
+    height: 7vh;
+    text-decoration: none;
+    margin-left: 500px;
+    margin-top: 2px;
+}
+
+nav .nav-center h1 {
+    font-size: 20px;
+    color: #5d5c5c;
+
+    text-align: center;
+}
+
+nav .nav-right {
+    display: flex;
+    padding-left: 450px;
+
+}
+
+nav .nav-right a {
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-decoration: none !important;
+    color: #999595;
+
+}
+
+nav .nav-right a:hover {
+    color: #5d5c5c;
+}
+
+
+nav .nav-right a h4 {
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: purple;
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: -51px;
+    position: absolute;
+}
+
+nav .nav-right .fa-cart-shopping {
+    position: relative;
+}
+
+.nav2 {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 340px 0px;
+    background-color: white;
+    top: 0;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav2 a:hover {
+    color: purple;
+}
+
+.home {
+    color: purple !important;
+}
+
+.one-div {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+
+}
+
+.one-div a {
+    margin-left: 30px;
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-decoration: none !important;
+    color: black;
+
+}
+
+.one-div a:hover {
+    color: purple;
+}
+
+.one-div h1 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+/* end navv */
+.table {
+    max-width: 1200px;
+    border: 1px solid transparent;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+}
+
+
+
+
+.table table {
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+.table table tr th {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+.table table tr td {
+    border: 1px solid rgb(243, 151, 166);
+    padding: 10px 15px;
+}
+
+.table table tr td img {
+    width: 200px;
+    display: inline-block;
+    object-fit: cover;
+
+}
+
+.btn-11 {
+    position: relative;
+
+
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: bold;
+    background: rgb(90, 3, 90);
+    padding: 7px 30px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-111 {
+    display: flex;
+    justify-content: center;
+    /* gap:10 px; لعمل فرق بين الازرار */
+}
+
+.btn-111 .btnnn {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    border: 1px solid transparent;
+    display: inline;
+    padding: 5px 15px;
+}
+
+.blus {
+    border: 1px solid purple;
+    padding: 10px 15px;
+    width: 70px;
+
+}
+
+.blus h6 {
+    padding: 1px 15px;
+}
+
+.btn44 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.btn66 {
+    font-size: 14px;
+    font-weight: bold;
+    background: rgb(90, 3, 90);
+    width: 240px;
+    padding: 7px 30px;
+    margin-left: 90px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+
+    cursor: pointer;
+
+
+}
+
+.btn55 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.btn77 {
+
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid purple;
+
+    width: 240px;
+    padding: 7px 30px;
+    margin-left: 350px;
+    margin-top: -587px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    color: purple;
+
+    cursor: pointer;
+
+
+}
+
+.coupon {
+    margin-top: -1100px;
+    margin-left: 90px;
+}
+
+.coupon input {
+    padding: 5px;
+    margin-top: 15px;
+    width: 300px;
+}
+
+.coupon p {
+    color: #999595;
+}
+
+.btn455 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.btn677 {
+
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    background-color: purple;
+    width: 240px;
+    padding: 7px 30px;
+    margin-left: 350px;
+    margin-top: -38px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+
+    cursor: pointer;
+
+
+}
+
+.right {
+    position: relative;
+    border: 2px solid rgb(190, 189, 189);
+    width: 290px;
+    height: 100px;
+    margin-top: -750px;
+    margin-left: 970px;
+    margin-bottom: 20px;
+
+}
+
+.shop-all {
+    display: flex;
+}
+
+.categories {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+
+}
+
+.categories .name h4 {
+    color: purple;
+}
+
+.right h1 {
+    margin-left: 170px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.btn-pro {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.btnpp {
+    font-size: 17px;
+    font-weight: bold;
+    background: rgb(90, 3, 90);
+    width: 290px;
+    padding: 7px 30px;
+    margin-top: 40px;
+    margin-left: px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+
+}
+
+.btnpp:hover {
+
+    height: 50px;
+    width: 290px;
+    transform: scale(1.2);
+    z-index: 2;
+
+}
+
+/* footer */
+footer {
+    position: relative;
+}
+
+footer .all-footer {
+    position: absolute;
+    display: flex;
+    margin-top: 150px;
+
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 50px 50px;
+}
+
+footer .all-footer a {
+    justify-content: center;
+    text-decoration: none;
+    display: list-item;
+    list-style: none;
+    color: #717070;
+    cursor: pointer;
+
+}
+
+.center {
+    margin-top: 65px;
+}
+
+footer .all-footer i {
+    margin-left: -30px;
+    margin-top: 6px;
+    position: absolute;
+    color: purple;
+    font-size: 20px;
+}
+
+.icon {
+
+    margin-left: -100px;
+    position: relative;
+}
+
+.pormo img {
+    width: 300px;
+    height: 150px;
+
+}
+
+.shose11 {
+    color: purple !important;
+    font-size: 18px;
+}
+
+
+.subscribe {
+    margin-left: -30px;
+    margin-top: 50px;
+}
+
+/* .sub{
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: 2px solid rgb(164, 164, 164) ;
+}
+.sub h4{
+    color: #515050;
+    margin-left: 10px;
+    margin-top: 5px;
+} */
+.subss {
+    text-decoration: none;
+    width: 190px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.send {
+    width: 90px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 10%;
+    position: absolute;
+    text-align: center;
+
+    background-color: purple;
+    margin-left: 175px;
+    margin-top: -50px;
+}
+
+.emailll {
+    text-align: center;
+    color: white !important;
+}
+
+.bee {
+    font-size: 20px;
+    color: #494848;
+
+}
+
+.your-name {
+    margin-top: 500px;
+    margin-left: 380px;
+    margin-bottom: 70px;
+    color: #717070;
+}
+
+.your-name span {
+    color: purple;
+}
+
+.fa-heart {
+    font-size: 20px;
+}

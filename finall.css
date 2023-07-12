@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.NAV1 {
+    height: 120px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 0px;
+
+    z-index: 9;
+    background-color: white;
+    top: 0;
+}
+
+nav .nav-left {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+nav .nav-left .search {
+    position: relative;
+}
+
+nav .nav-left .search input {
+    position: absolute;
+    border: none;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px 16px 9px 36px;
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+    height: 40px;
+    width: fit-content;
+    z-index: px;
+    outline: none !important;
+    transition: 0.4s;
+
+}
+
+nav .nav-left .search input:hover {
+    margin-left: 20px;
+
+}
+
+
+nav .nav-left .search .fa-solid {
+    color: rgb(172, 167, 167);
+    position: absolute;
+    font-size: 15px;
+    left: 15px;
+    top: 15px;
+}
+
+nav .nav-center {
+    border: 3px solid rgba(0, 0, 0, 0.648);
+    width: 30%;
+    height: 7vh;
+    text-decoration: none;
+    margin-left: 500px;
+    margin-top: 2px;
+}
+
+nav .nav-center h1 {
+    font-size: 20px;
+    color: #5d5c5c;
+
+    text-align: center;
+}
+
+nav .nav-right {
+    display: flex;
+    padding-left: 450px;
+
+}
+
+nav .nav-right a {
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-decoration: none !important;
+    color: #999595;
+
+}
+
+nav .nav-right a:hover {
+    color: #5d5c5c;
+}
+
+
+nav .nav-right a h4 {
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: purple;
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: -51px;
+    position: absolute;
+}
+
+nav .nav-right .fa-cart-shopping {
+    position: relative;
+}
+
+.nav2 {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 340px 0px;
+    background-color: white;
+    top: 0;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav2 a:hover {
+    color: purple;
+}
+
+.home {
+    color: purple !important;
+}
+
+.one-div {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+
+}
+
+.one-div a {
+    margin-left: 30px;
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-decoration: none !important;
+    color: black;
+
+}
+
+.one-div a:hover {
+    color: purple;
+}
+
+.one-div h1 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+/* end navv */
+
+.center{
+
+}
+.center-one{
+   
+    margin-left: 560px;
+    margin-top: 120px;
+}
+
+.check{
+    position: relative;
+    border: 2px solid transparent;
+    color: white;
+    background-color: rgb(3, 163, 3);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+   margin-left: 110px;
+    font-size: 30px;
+}
+
+.center h1{
+    font-size: 60px;
+}
+
+.center p{
+    margin-left: 8px;
+    font-size: 17px;
+    color: rgb(92, 92, 92);
+
+}
+.fa-check{
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 4px;
+}
+
+
+
+.btn-11 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.btn {
+    font-size: 15px;
+   
+    background: rgb(90, 3, 90);
+    width: 190px;
+    padding: 7px 30px;
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    transition: 0.6s;
+
+}
+
+.btn:hover {
+    box-shadow: 1px 1px rgb(195, 193, 193);
+    height: 50px;
+    width: 190px;
+    transform: scale(1.2);
+    z-index: 2;
+
+} 
+
+footer {
+    position: relative;
+    margin-top: -400px;
+
+}
+
+footer .all-footer {
+    position: absolute;
+    display: flex;
+    margin-top: 60px;
+
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 50px 50px;
+}
+
+footer .all-footer a {
+    justify-content: center;
+    text-decoration: none;
+    display: list-item;
+    list-style: none;
+    color: #717070;
+    cursor: pointer;
+
+}
+
+.center {
+    margin-top: 65px;
+}
+
+footer .all-footer i {
+    margin-left: -30px;
+    margin-top: 6px;
+    position: absolute;
+    color: purple;
+    font-size: 20px;
+}
+
+.icon {
+
+    margin-left: -100px;
+    position: relative;
+}
+
+.pormo img {
+    width: 300px;
+    height: 150px;
+
+}
+
+.shose11 {
+    color: purple !important;
+    font-size: 18px;
+}
+
+
+.subscribe {
+    margin-left: -30px;
+    margin-top: 50px;
+}
+
+/* .sub{
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: 2px solid rgb(164, 164, 164) ;
+}
+.sub h4{
+    color: #515050;
+    margin-left: 10px;
+    margin-top: 5px;
+} */
+.subss {
+    text-decoration: none;
+    width: 190px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.send {
+    width: 90px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 10%;
+    position: absolute;
+    text-align: center;
+
+    background-color: purple;
+    margin-left: 175px;
+    margin-top: -50px;
+}
+
+.emailll {
+    text-align: center;
+    color: white !important;
+}
+
+.bee {
+    font-size: 20px;
+    color: #494848;
+
+}
+
+.your-name {
+    margin-top: 500px;
+    margin-left: 380px;
+    margin-bottom: 70px;
+    color: #717070;
+}
+
+.your-name span {
+    color: purple;
+}
+
+.fa-heart {
+    font-size: 20px;
+}
